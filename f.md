@@ -498,9 +498,6 @@ Fraction divide(Fraction a, Fraction b, int *error) {
 
 // Печать дроби
 void printFraction(Fraction f) {
-    if (f.den == 1)
-        printf("Результат: %d\n", f.num);
-    else
         printf("Результат: %d/%d\n", f.num, f.den);
 }
 
